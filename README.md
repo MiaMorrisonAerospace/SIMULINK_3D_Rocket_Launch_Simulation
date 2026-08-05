@@ -1,14 +1,29 @@
 # SIMULINK_Rocket_Launch_Simulation
 
 
-Demo:
--
+Project Preview
+
+<table align="center">
+<tr>
+
+<td align="center" width="50%">
+
+# Rocket Animation
+
 https://github.com/user-attachments/assets/2ca21cf0-b210-441a-94a1-1940e6c4d923
 
-Simulink Architecture
--
+</td>
 
-<img width="1574" height="887" alt="Rocket_Launch_Sim" src="https://github.com/user-attachments/assets/32ec6eb4-ff2c-4019-949b-79d6707ab741" />
+<td align="center" width="50%">
+
+# Simulink Model
+
+<img src="https://github.com/user-attachments/assets/32ec6eb4-ff2c-4019-949b-79d6707ab741" width="500">
+
+</td>
+
+</tr>
+</table>
 
 Project Objective
 -
