@@ -1,12 +1,18 @@
 # SIMULINK_Rocket_Launch_Simulation
 
+<img width="1574" height="887" alt="Rocket_Launch_Sim" src="https://github.com/user-attachments/assets/32ec6eb4-ff2c-4019-949b-79d6707ab741" />
+
+
+
+
+
 Project Objective
 -
 The goal of this project was to strengthen my understanding of MATLAB and Simulink by building a complete rocket launch simulation from scratch using concepts from my aerospace engineering coursework, including Newton's Second Law, Euler angles, rotation matrices, and numerical integration—to model a simplified three-dimensional rocket launch and create a custom animation of the results.
 
 Project Overview
 -
-This project simulates a rocket launching from a stationary launch pad using a simplified three-dimensional flight model. The simulation calculates the rocket's trajectory throughout flight by modeling the major forces acting on the vehicle while tracking its orientation using Euler angles.
+This project simulates a rocket launching from a stationary launch pad using a simplified three-dimensional flight model. The simulation calculates the rocket's trajectory throughout flight by modeling the major forces acting on the vehicle while tracking its orientation using a 3-2-1 (yaw-pitch-roll) Euler angle rotation sequence. A rotation matrix is then used to transform the thrust vector from the rocket body frame into the inertial reference frame.
 
 After the simulation runs in Simulink, the results are exported into MATLAB where a custom animation visualizes the rocket's flight path, orientation, and real-time flight telemetry.
 
@@ -19,6 +25,7 @@ Physics Modeled
 - Gravity
 - Aerodynamic drag
 - Three-dimensional translational motion
+- 3-2-1 (Yaw-Pitch-Roll) Euler angle rotation sequence
 - Euler angle attitude dynamics
 - Rotation matrix for body-to-world frame transformations
 - Numerical integration of acceleration, velocity, and position
@@ -31,7 +38,7 @@ The model is organized into the following sections:
 
 - **Rocket Parameters** – Defines vehicle properties, initial conditions, and simulation constants.
 - **Mass Model** – Calculates the rocket mass as fuel is consumed.
-- **Attitude Dynamics** – Computes Euler angle rates, integrates the vehicle orientation, and generates the rotation matrix.
+- **Attitude Dynamics** – Computes Euler angle rates, integrates the vehicle orientation, and generates a 3-2-1 (yaw-pitch-roll) rotation matrix.
 - **Force Model** – Calculates thrust, drag, and gravitational forces before summing the total force acting on the rocket.
 - **Translational Dynamics** – Uses Newton's Second Law to calculate acceleration before integrating velocity and position.
 - **Outputs** – Exports simulation data to MATLAB for visualization.
@@ -52,6 +59,7 @@ Skills Demonstrated
 -
 - MATLAB programming
 - Simulink modeling
+- Aerospace coordinate transformations
 - Dynamic system simulation
 - Engineering data visualization
 
