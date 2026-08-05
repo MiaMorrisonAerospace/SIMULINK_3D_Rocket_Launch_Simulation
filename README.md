@@ -1,12 +1,11 @@
 # SIMULINK_Rocket_Launch_Simulation
 
+
+
+https://github.com/user-attachments/assets/2ca21cf0-b210-441a-94a1-1940e6c4d923
+
+
 <img width="1574" height="887" alt="Rocket_Launch_Sim" src="https://github.com/user-attachments/assets/32ec6eb4-ff2c-4019-949b-79d6707ab741" />
-
-
-
-https://github.com/user-attachments/assets/0b00944d-2585-403d-aecc-181e0b2d74f8
-
-
 
 Project Objective
 -
